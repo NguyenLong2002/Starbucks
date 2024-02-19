@@ -1,0 +1,26 @@
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height :1.6rem; 
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+a,ul,li{
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    margin: 0;
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
